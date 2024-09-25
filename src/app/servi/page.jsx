@@ -6,27 +6,27 @@ import Link from "next/link";
 const services = [
     {
         num: "01",
-        title: "Java",
-        description: "Courses that cover everything from basic language concepts, object-oriented programming, to the development of web applications with frameworks such as Spring and concurrency management.",
-        href: "/descripcion"
+        title: "Java - Spring",
+        description: "Conocimienos en java con el framework spring, manejod e jpa, mapstruct, jdbc, maven, gradel, lombok y mas",
+        href: "/home"
     },
     {
         num: "02",
         title: "Node",
-        description: "Programs that introduce Node.js, package management with npm, creation of web servers, development of RESTful APIs and use of frameworks such as Express.",
-        href: "/sobre-nosotros"
+        description: "Conocimientos en EcmaScript, manejo de express",
+        href: "/home"
     },
     {
         num: "03",
-        title: "Python",
-        description: "Courses ranging from basic syntax and control structures, to web development with Django or Flask, data science, and machine learning.",
-        href: "/mision"
+        title: "Angular",
+        description: "Conocimientos en guards, manejo de interceptos, routes, manejo de typeScript",
+        href: "/home"
     },
     {
         num: "04",
-        title: "C#",
-        description: "Training in language fundamentals, object-oriented programming, and development of desktop applications with Windows Forms or WPF, as well as web applications with ASP.NET.",
-        href: "/vision"
+        title: "Python",
+        description: "Manejo básico, conocimientos en django para manejo rest en este lenguaje",
+        href: "/home"
     }
 ];
 

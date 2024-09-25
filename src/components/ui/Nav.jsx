@@ -23,18 +23,6 @@ const links = [
     {
         name:'contact',
         path:'/contact'
-    },
-    {
-        name : 'Graficas',
-        path : '/graphic'
-    },
-    {
-        name : '%Clases',
-        path : '/pie'
-    },
-    {
-        name : 'Barras',
-        path : '/barras'
     }
 
 ];

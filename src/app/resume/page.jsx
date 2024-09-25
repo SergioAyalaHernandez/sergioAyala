@@ -1,27 +1,25 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs } from 'react-icons/fa';
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaJava, FaAngular, FaPython } from 'react-icons/fa';
+import { SiTailwindcss, SiGithub, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiRabbitmq, SiDocker } from 'react-icons/si';
 
 const about = {
     title: "About me",
-    description: "We are a platform focused on teaching in the IT Area",
+    description: "with knowledge in back and front development, database management, deployments and communication between services\n" +
+        "\n" +
+        "Below you will find some of the services where I feel I can perform well given my background in the field of programming.",
     info: [
         {
             fieldName: "name",
-            fieldValue: "CoursesBKD"
+            fieldValue: "Sergio Ismael Ayala Hernandez"
         },
         {
             fieldName: "Phone",
             fieldValue: "+57 324 559 65 21"
         },
         {
-            fieldName: "Experience",
-            fieldValue: "L5 Years"
-        },
-        {
-            fieldName: "Skype",
-            fieldValue: "Courses.01"
+            fieldName: "Developer",
+            fieldValue: "3 Years"
         },
         {
             fieldName: "Nationality",
@@ -29,88 +27,79 @@ const about = {
         },
         {
             fieldName: "Email",
-            fieldValue: "info-curso-back@coursesbkd.edu.com"
+            fieldValue: "sergio.ayala9208@gmail.com"
         },
         {
-            fieldName: "Courses",
-            fieldValue: "Backend / Front-End / FullStack / DBA / Server"
+            fieldName: "Skills",
+            fieldValue: "Backend / Front-End / DBA / Server"
         },
         {
             fieldName: "Lenguages",
-            fieldValue: "Spanish / English"
+            fieldValue: "Spanish"
         },
     ]
 };
 
 const experience = {
     icon: '/assets/resume/badge.svg',
-    title: 'CoursesBKD',
-    description: 'We are a platform focused on the software development and IT learning area.',
+    title: 'Experience',
+    description: '\n' +
+        'This is my experience in work issues both in development and other areas where I have worked.',
     items: [
         {
-            compant: "coursesBKD.con",
-            position: "Developers in POO",
+            compant: "Linktic",
+            position: "Developer in backend",
+            duration: "Present"
+        },
+        {
+            compant: "Axede",
+            position: "Developer FullStack",
             duration: "6 Months"
         },
         {
-            compant: "coursesBKD.con",
-            position: "Developers in Database Connection",
-            duration: "1 year"
+            compant: "Aldeamo",
+            position: "Developer FullStack",
+            duration: "1 year / 3 Months"
         },
         {
-            compant: "coursesBKD.con",
-            position: "Developers in API REST FULL",
-            duration: "1 year / 6 Months"
-        },
-        {
-            compant: "coursesBKD.con",
-            position: "Developers in Testing with API",
-            duration: "2 year"
-        },
-        {
-            compant: "coursesBKD.con",
-            position: "Developers in Design web",
-            duration: "2 year / 6 Months"
-        },
-        {
-            compant: "coursesBKD.con",
-            position: "Developers FullStack",
-            duration: "3 year"
+            compant: "Don Eloy",
+            position: "Logistics coordinator",
+            duration: "7 years"
         }
     ]
 };
 
 const education = {
     icon: '/assets/resume/badge.svg',
-    title: 'CoursesBKD Education',
-    description: 'We offer accessible education for each person interested in learning new Technologies, promoting professional careers.',
+    title: 'Education',
+    description: 'My studies done.',
     items: [
         {
             institution: "universitaria de Colombia",
             degree: "Software Enginiers",
-            duration: "2024"
+            duration: "9 Semesters"
         },
         {
-            institution: "CUN",
-            degree: "Sistems Enginiers",
-            duration: "2024"
+            institution: "Universidad Autónoma de Bucaramanga 2023",
+            degree: "Técnico laboral en desarrollo web",
+            duration: "12 Months"
         },
         {
-            institution: "Universidad Pontificica Javeriana",
-            degree: "Software Enginiers specialization",
-            duration: "2024"
+            institution: "Sergio Arboleda",
+            degree: "diplomas in software development",
+            duration: "1 Year"
         },
         {
-            institution: "universidad Distrital",
-            degree: "Software Enginiers Magister",
-            duration: "2024"
+            institution: "Escuela Superior de Administración Pública",
+            degree: "Ciencia de datos",
+            duration: "3 Months"
         }
     ]
 };
 
 const skills = {
-    title: "Ours Skills",
-    description: "Lorem ipsum",
+    title: "Skills",
+    description: "Some of the technologies with which I operate in my field of web development",
     SkillLists: [
         {
             icon: <FaHtml5 />,
@@ -121,29 +110,62 @@ const skills = {
             name: "FaCss3"
         },
         {
-            icon: <FaJs />,
-            name: "FaJs"
+            icon: <FaNodeJs />,
+            name: "Node"
         },
         {
             icon: <FaReact />,
-            name: "FaReact"
+            name: "React"
         },
         {
-            icon: <FaFigma />,
-            name: "FaFigma"
+            icon: <FaJava />,
+            name: "JAVA"
         },
         {
-            icon: <FaHtml5 />,
-            name: "FaNodeJs"
+            icon: <FaPython />,
+            name: "Python"
         },
         {
             icon: <SiTailwindcss />,
             name: "SiTailwindcss"
         },
         {
-            icon: <SiNextdotjs />,
-            name: "SiNextdotjs"
+            icon: <SiSpringboot />,
+            name: "SpringBoot"
         },
+        {
+            icon: <SiMongodb />,
+            name: "SpringBoot"
+        },
+        {
+            icon: <SiMysql />,
+            name: "SpringBoot"
+        },
+        {
+            icon: <FaAngular />,
+            name: "SpringBoot"
+        },
+        {
+            icon: <FaJs />,
+            name: "SpringBoot"
+        },
+        {
+            icon: <SiRabbitmq />,
+            name: "SpringBoot"
+        },
+        {
+            icon: <SiPostgresql />,
+            name: "SpringBoot"
+        },
+        {
+            icon: <SiDocker />,
+            name: "SpringBoot"
+        },
+        {
+            icon: <SiGithub />,
+            name: "SpringBoot"
+        }
+
     ]
 };
 

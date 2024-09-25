@@ -8,13 +8,13 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/">
                     <h1 className='text-4xl font-semibold'>
-                        coursesBKD<span className="text-accent">.</span>
+                        Sergio<span className="text-accent">.</span>
                     </h1>
                 </Link>
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />
-                    <Link href="http://localhost:4200/login">
-                        <Button>Get to know our platform</Button>
+                    <Link href="https://github.com/SergioAyalaHernandez">
+                        <Button>GitHub</Button>
                     </Link>
                 </div>
                 <div className="xl:hidden">

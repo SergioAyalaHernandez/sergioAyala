@@ -15,8 +15,8 @@ const Photo = () => {
                     opacity: 1,
                     transition: { delay: 1.4, duration: 0.4, ease: "easeInOut" },
                 }}
-                className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
-                <Image src="/assets/logo.png" priority quality={100} fill all="" className="object-contain" />
+                className="w-[298px] h-[298px] xl:w-[498px] xl:h-[458px] mix-blend-lighten absolute">
+                <Image src="/assets/sergio.png" priority quality={100} fill all="" className="object-contain" />
             </motion.div>
 
             <motion.svg className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
@@ -25,7 +25,7 @@ const Photo = () => {
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <motion.circle 
-                cx="253" 
+                cx="253"
                 cy="253" 
                 r="250"
                 stroke="#de0211"

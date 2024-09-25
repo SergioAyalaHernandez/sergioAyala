@@ -21,7 +21,7 @@ const info = [
     {
         icon: <FaMapMarkedAlt />,
         title: 'Address',
-        description: "avenida falsa 123, Sprinfield"
+        description: "Bogotá, Colombia"
     },
 ]
 
